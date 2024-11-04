@@ -1,0 +1,341 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+/* For desktop: */
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 100%;
+    }
+}
+/* For desktop: */
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* For desktop: */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* For mobile: */
+@media only screen and (max-width: 1000px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+
+/* For desktop: */
+[class*="col-"] {
+    padding: 15px;
+}
+
+.shadow {
+    box-shadow: 0 0 20px rgb(128, 64, 145);
+    border-radius: 10px;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline;
+    padding: 10px;
+    font-size: 20px;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    nav li {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    nav ul {
+        background-color: rgb(195, 174, 201);
+    }
+}
+
+nav li a {
+    color: white;
+}
+
+nav li:hover {
+    background-color:  rgb(106, 67, 158);
+}
+
+.text-right{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.py-3 {
+    padding: 16px 0;
+}
+.px-3 {
+    padding: 0 16px;
+}
+.p-3 {
+    padding: 16px;
+}
+
+.bg-azul-o {
+    background-color: rgb(128, 34, 123);
+}
+.bg-azul-c {
+    background-color: rgb(223, 204, 223);
+}
+.bg-orange {
+    background-color: orange;
+}
+.text-white {
+    color: white;
+}
+.text-red {
+    color: red;
+    font-size: 30px;
+    background-color: rgb(33, 166, 170);
+}
+footer h1 {
+    border-bottom-left-radius: 10px;
+}
+footer h1 {
+    border-bottom-right-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#btnmenu {
+    font-size: 40px;
+    display: none;
+}
+/* For mobile: */
+@media screen and (max-width: 1000px) {
+    #btnmenu {
+        display: inline;
+    }
+    #menu{
+        display: none;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1000px)  {
+    #menu{
+        display: block;
+    }
+}
+.etiqueta{
+    color: brown;
+   font-size: 28px;
+   font-weight: bold;
+
+}
+.atributo {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.titulos {
+    color: darkorchid;
+    font-size: 30px;
+    font-weight: bold;
+}
+#enlaces a {
+
+    color: rgb(42, 156, 172);
+    text-decoration: underline;
+    font-size: 20px
+}
+#listas .customdes li {
+    list-style-type: square;
+}
+#listas .customdes li li {
+    list-style-type: disc;
+}
+#listas .customdes li li li {
+    list-style-type: circle;
+}
+#listas .customord li{
+    list-style-type: upper-roman;
+
+}
+#listas .customord li li{
+    list-style-type: upper-alpha;
+}
+#listas .customord li li li {
+    list-style-type: decimal;
+}
+#listas .customicon li  {
+    list-style-type: circle;
+}
+#listas .customicon li li  {
+    list-style-image: url(../img/icono\ lambopequeño-Photoroom.png) ;
+}
+#listas .customicon li li li {
+    list-style-image: none;
+}
+
+
+.listadefcustom {
+    width: 20%;
+    font-size: 20px;
+}
+.listadefcustom dt {
+    font-size: 26px;
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.striped tr:nth-child(odd) {
+
+    }
+.striped tr:nth-child(even) {
+
+    }
+.striped th {
+        background-color: rgb(16, 216, 9);
+        color: white;
+    }
+.lm {
+        background-color: #64b4ef;
+    }
+.horario     {
+        width: 80%;
+        margin:  0 auto;
+    }
+.td {
+        background-color: chartreuse;
+    }
+.td2 {
+        background-color: brown;
+    }
+.ENDE {
+    background-color: #96dc96;
+}
+.PROG {
+    background-color: #d2d26e;
+}
+.SISI {
+    background-color: #0080ff;
+}
+
+.formlogin {
+    float: left;
+    width: 50%;
+}
+.formregister {
+    float: right;
+    width: 50%;
+}
+.cb{
+    clear: both;
+}
+.formhtml5 {
+    width: 50%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.formhtml5 legend {
+    background-color: rgb(6, 6, 71);
+    color: white;
+    font-size: 22px;
+}
+.formhtml5 label {
+    background-color: rgb(1, 65, 40);
+    color: rgb(191, 243, 204);
+    font-size: 16px;
+}
+.btn {
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.btn-red {
+    background-color: rgb(218, 19, 19);
+    color: white;
+}
+.btn-green {
+    background-color: rgb(4, 44, 14);
+    color: rgb(177, 245, 174);
+}
+
+

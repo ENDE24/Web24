@@ -287,14 +287,23 @@ h1 {
 .td2 {
         background-color: brown;
     }
-.ENDE {
+.ende {
     background-color: #96dc96;
 }
-.PROG {
+.prog {
     background-color: #d2d26e;
 }
-.SISI {
+.sisi {
     background-color: #0080ff;
+}
+.lsmg {
+    background-color: #64b4ef;
+}
+.dasp {
+    background-color: #ffa264;
+}
+.bdd {
+    background-color: #65aa97;
 }
 
 .formlogin {
